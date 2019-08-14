@@ -24,7 +24,7 @@ namespace CustomListTests
             //Assert
             Assert.AreEqual(expected, actual);
         }
-       
+       [TestMethod]
        public void Remove_RemoveFirstItemInstance_OnlyOneItemInstanceLeftInList()
         {
             //Arrange
@@ -41,7 +41,7 @@ namespace CustomListTests
             //Assert
             Assert.AreEqual(expected, actual);
         }
-
+        [TestMethod]
         public void Remove_RemoveFirstItemInstanceInListOfOtherObjects_OnlyOneItemInstanceLeftInList()
         {
             //Arrange
@@ -59,6 +59,7 @@ namespace CustomListTests
             //Assert
             Assert.AreEqual(expected, actual);
         }
+        [TestMethod]
         public void Remove_RemoveItemFromEmptyList_CountStillZero()
         {
             //Arrange
@@ -67,12 +68,13 @@ namespace CustomListTests
             int actual;
 
             //Act
-            List.Remove(1);
+            List.Remove(0);
             actual = List.Count;
 
             //Assert
             Assert.AreEqual(expected, actual);
         }
+        [TestMethod]
         public void Remove_RemoveItemFromListOfMany_ItemsBehindRemovedItemSlideUpInArray()
         {
             //Arrange
