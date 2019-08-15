@@ -94,7 +94,7 @@ namespace CustomListTests
         }
 
         [TestMethod]
-        public void Remove_RemoveItemFromFullList_LastIndexEqualsDefault()
+        public void Remove_RemoveLastItemFromFullList_LastIndexEqualsDefault()
         {
             //Arrange
             CustomList<int> List = new CustomList<int>();
