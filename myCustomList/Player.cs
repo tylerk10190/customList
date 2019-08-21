@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace myCustomList
 {
-    class Player
+    public class Player
     {
     }
 }
