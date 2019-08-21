@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "customList", "C:\Users\tyle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomListTests", "CustomListTests\CustomListTests.csproj", "{23A81AEB-74E3-4B47-8057-F765BB289F3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myCustomList", "myCustomList\myCustomList.csproj", "{BBD243D5-5024-499C-893F-9F8C5FF60B4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{23A81AEB-74E3-4B47-8057-F765BB289F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23A81AEB-74E3-4B47-8057-F765BB289F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23A81AEB-74E3-4B47-8057-F765BB289F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD243D5-5024-499C-893F-9F8C5FF60B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD243D5-5024-499C-893F-9F8C5FF60B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD243D5-5024-499C-893F-9F8C5FF60B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD243D5-5024-499C-893F-9F8C5FF60B4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
