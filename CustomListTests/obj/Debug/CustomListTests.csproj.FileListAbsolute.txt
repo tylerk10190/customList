@@ -5,13 +5,13 @@
 \\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 \\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\bin\Debug\CustomListTests.dll
 \\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\bin\Debug\CustomListTests.pdb
-\\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\bin\Debug\customList.exe
 \\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 \\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-\\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\bin\Debug\customList.pdb
-\\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\bin\Debug\customList.exe.config
 \\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 \\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 \\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\obj\Debug\CustomListTests.csproj.CopyComplete
 \\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\obj\Debug\CustomListTests.dll
 \\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\obj\Debug\CustomListTests.pdb
+\\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\bin\Debug\myCustomList.exe
+\\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\bin\Debug\myCustomList.pdb
+\\Mac\Home\Desktop\DevCodeCamp\Assignments\customList\CustomListTests\bin\Debug\myCustomList.exe.config

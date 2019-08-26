@@ -14,7 +14,14 @@ namespace myCustomList
         {
             get
             {
-                return items[i];
+                if (i < 0 || i > Count)
+                {
+                    throw new ArgumentOutOfRangeException("You cannot access a non-existant index");
+                }
+                else
+                {
+                    return items[i];
+                }
             }
             set
             {
@@ -78,13 +85,14 @@ namespace myCustomList
                 if (itemRemoved.Equals(items[i]))
                 {
                     IsEqual = true;
-                    if (i < count - 1)
+                    for(int j = 0; j < count; j ++)
+                    if (j < count - 1)
                     {
-                        items[i] = items[i + 1];
+                        items[j] = items[j + 1];         
                     }
                     else
                     {
-                        items[i] = default(T);
+                        items[j] = default(T);
                     }
                     count--;
                 }

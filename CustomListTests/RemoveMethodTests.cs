@@ -112,6 +112,44 @@ namespace CustomListTests
             //Assert
             Assert.AreEqual(expected, actual);
         }
+        [TestMethod]
+        public void Remove_RemoveFirstItemFromFullList_ItemAtIndexOneEqualsThree()
+        {
+            //Arrange
+            CustomList<int> List = new CustomList<int>();
+            int expected = 3;
+            int actual;
 
+            //Act
+            List.Add(1);
+            List.Add(2);
+            List.Add(3);
+            List.Add(4);
+            List.Remove(1);
+            actual = List[1];
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Remove_RemoveFirstItemFromFullList_ItemAtIndexTwoEqualsFour()
+        {
+            //Arrange
+            CustomList<int> List = new CustomList<int>();
+            int expected = 4;
+            int actual;
+
+            //Act
+            List.Add(1);
+            List.Add(2);
+            List.Add(3);
+            List.Add(4);
+            List.Remove(1);
+            actual = List[2];
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
